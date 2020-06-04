@@ -19,5 +19,6 @@ function update(){
 }
 
 function draw(){
+    gambeBoard.innerHTML = ""
     drawSnake(gambeBoard)
 }
